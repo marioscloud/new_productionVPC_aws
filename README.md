@@ -26,17 +26,21 @@ If you have any questions, feel free to reach out at marioscloud@duck.com.
 ## Usage
 1. Clone the repository:
 ```sh
-git clone https://github.com/marioscloud/creating_aws_vpc
-            2. Navigate to the project directory:
+git clone https://github.com/marioscloud/new_productionVPC_aws
+
+2. Navigate to the project directory:
 sh
 cd /project_aws_02
-            3. Initialize Terraform:
+
+3. Initialize Terraform:
 sh
 terraform init
-            4. Plan and apply the configuration:
+
+4. Plan and apply the configuration:
 sh
 terraform plan
 terraform apply
-            5. Destroy the resources when no longer needed:
+
+5. Destroy the resources when no longer needed:
 sh
 terraform destroy
