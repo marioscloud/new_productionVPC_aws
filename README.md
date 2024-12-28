@@ -4,7 +4,7 @@
 This project provides a comprehensive guide to setting up and managing a new subnet for the production VPC with the local name webapps using Terraform. The repository includes a well-structured directory with modular configurations, enabling scalable and maintainable infrastructure as code practices. This repository is ideal for cloud architects, DevOps engineers, and anyone looking to automate the creation of AWS VPCs and manage infrastructure efficiently.
 
     • Set the IPv4 CIDR block for the subnet to 192.168.0.32/27
-    • Set the availability zone for the subnet to us-west-1b
+    • Set the availability zone for the subnet to eu-central-1a
     • Tag the new resource and use the key-value map Name = "Web Applications Subnet"
     • Apply the configuration to provision the infrastructure on AWS.
     • Go to the AWS Management Console -> VPC Dashboard and notice that both the VPC and the subnet were provisioned.
