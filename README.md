@@ -16,7 +16,9 @@ This project provides a comprehensive guide to setting up and managing a new sub
 - Configuring the AWS Provider. Use your own access and secret keys!
 
 export AWS_ACCESS_KEY_ID=(your access key id)
+
 export AWS_SECRET_ACCESS_KEY=(your secret access key)
+
 export AWS_DEFAULT_REGION=”eu-central-1”
 
 ## Contact
